@@ -49,8 +49,9 @@ const App = () => {
   return (
     <Routes>
       <Route exact path="/" element={<LandingPage />} />
-      <Route path="/login" elemnt={<Login />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/register" element={<RegisterAdmin />} />
+      {/* <Route path="about" element={<About />} /> */}
 
       {/* Admin  */}
 
